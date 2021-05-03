@@ -21,6 +21,7 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent },
       { path: 'signin', component: SigninComponent },
       { path: 'reset', component: ResetPasswordComponent },
+
     ],
   },
 
@@ -33,6 +34,7 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'manageuser', component: ManageUsersComponent },
       { path: 'profile', component: ProfileComponent },
+
     ],
   },
   {
@@ -42,6 +44,7 @@ const routes: Routes = [
     children: [
       { path: '', component: ProfileComponent },
       { path: 'profile', component: ProfileComponent },
+      
     ],
   },
 ];
